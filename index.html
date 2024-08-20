@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Final AOS Animation -->
+    <!-- Inicio Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500/7bg-zinc-950/650;700&display=swap"
+        rel="stylesheet">
+    <!-- Final Google Fonts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" href="./assets/img/Nike-Logo2.png">
+    <link rel="stylesheet" href="./src/css/output.css">
+    <title>Nike Sneakers Store</title>
+</head>
+
+<body id="nav">
+    <header>
+        <nav class="bg-neutral-950 text-neutral-200 md:py-6 md:px-12 p-5">
+            <div class="navTop flex items-center justify-between">
+                <a href="#home">
+                    <img src="./assets/img/sneakers.png" alt="Logo">
+                </a>
+
+                <form class="seach hidden md:flex items-center bg-neutral-500 py-3 px-5 rounded-xl">
+                    <input type="text" placeholder="Search..."
+                        class="seachInput border-none bg-transparent placeholder:text-neutral-300 outline-none">
+                    <button type="submit" class="seachIcon">
+                        <img src="./assets/img/search.png" width="20" height="20" alt="Ícone de busca">
+                    </button>
+                </form>
+
+                <span class="limiteOffer text-xl border-b-2 border-green-900 cursor-pointer">Limited Offer!</span>
+            </div>
+            <div class="navBottom flex-wrap flex items-center justify-center pt-6 md:px-3 gap-3">
+                <h3 class="menuItem m-2 text-xl md:mr-14 cursor-pointer text-neutral-200 font-medium">AIR FORCE</h3>
+                <h3 class="menuItem m-2 text-xl md:mr-14 cursor-pointer text-neutral-200 font-medium">JORDAN</h3>
+                <h3 class="menuItem m-2 text-xl md:mr-14 cursor-pointer text-neutral-200 font-medium">BLAZER</h3>
+                <h3 class="menuItem m-2 text-xl md:mr-14 cursor-pointer text-neutral-200 font-medium">CRATER</h3>
+                <h3 class="menuItem m-2 text-xl md:mr-14 cursor-pointer text-neutral-200 font-medium">HIPPIE</h3>
+            </div>
+        </nav>
+        <!--Fim Nav-->
+    </header>
+    <!-- Fim Header -->
+
+    <main>
+        <div class="slider overflow-hidden max-w-full">
+            <div class="sliderwrapper flex w-[500vw] duration-[1s] xl:duration-[1.5s] ease-in-out">
+                <div class="w-screen flex items-center justify-center relative">
+                    <img srcset="./assets/img/air.png" alt="air sneakers" class="slideImg z-10 w-11/12 md:w-auto">
+                    <div class="w-full h-full md:w-[750px] md:h-[750px] rounded-full absolute bg-green-700">
+                    </div>
+                    <h1
+                        class="hidden lg:flex absolute top-36 right-36 text-6xl text-center font-black text-neutral-200 z-10">
+                        AIR FORCE <br> NEW <br> SEASON</h1>
+                    <h2
+                        class="absolute bottom-12 left-0 bg-neutral-200 xl:bg-transparent xl:bottom-3/4 xl:left-36 text-6xl text-center font-light border border-neutral-500 z-10 py-1 px-2 text-green-700 rounded-sm">
+                        $799</h2>
+                    <a href="#product">
+
+                        <button
+                            class="border-none absolute bottom-0 right-0 xl:bottom-1/3 xl:right-36 text-3xl py-2 px-3 font-black cursor-pointer bg-neutral-950 text-neutral-200 xl:border xl:border-neutral-500 z-10 rounded-sm hover:bg-neutral-200 hover:text-neutral-950 duration-300">BUY
+                            NOW!</button>
+                    </a>
+                </div>
+
+                <div class="w-screen flex items-center justify-center relative">
+                    <img srcset="./assets/img/jordan.png" alt="jordan sneakers" class="slideImg z-10 w-11/12 md:w-auto">
+                    <div class="w-full h-full md:w-[750px] md:h-[750px] rounded-full absolute bg-purple-800">
+                    </div>
+                    <h1
+                        class="hidden lg:flex absolute top-36 right-36 text-6xl text-center font-black text-neutral-200 z-10">
+                        JORDAN <br> NEW <br> SEASON</h1>
+                    <h2
+                        class="absolute bottom-12 left-0 bg-neutral-200 xl:bg-transparent xl:bottom-3/4 xl:left-36 text-6xl text-center font-light border border-neutral-500 z-10 py-1 px-2 text-purple-800 rounded-sm">
+                        $999</h2>
+                    <a href="#product">
+
+                        <button
+                            class="border-none absolute bottom-0 right-0 xl:bottom-1/3 xl:right-36 text-3xl py-2 px-3 font-black cursor-pointer bg-neutral-950 text-neutral-200 xl:border xl:border-neutral-500 z-10 rounded-sm hover:bg-neutral-200 hover:text-neutral-950 duration-300">BUY
+                            NOW!</button>
+                    </a>
+                </div>
+
+                <div class="w-screen flex items-center justify-center relative">
+                    <img srcset="./assets/img/blazer.png" alt="blazer sneakers" class="slideImg z-10 w-11/12 md:w-auto">
+                    <div class="w-full h-full md:w-[750px] md:h-[750px] rounded-full absolute bg-pink-700">
+                    </div>
+                    <h1
+                        class="hidden lg:flex absolute top-36 right-36 text-6xl text-center font-black text-neutral-200 z-10">
+                        BLAZER <br> NEW <br> SEASON</h1>
+                    <h2
+                        class="absolute bottom-12 left-0 bg-neutral-200 xl:bg-transparent xl:bottom-3/4 xl:left-36 text-6xl text-center font-light border border-neutral-500 z-10 py-1 px-2 text-pink-700 rounded-sm">
+                        $899</h2>
+                    <a href="#product">
+
+                        <button
+                            class="border-none absolute bottom-0 right-0 xl:bottom-1/3 xl:right-36 text-3xl py-2 px-3 font-black cursor-pointer bg-neutral-950 text-neutral-200 xl:border xl:border-neutral-500 z-10  rounded-sm hover:bg-neutral-200 hover:text-neutral-950 duration-300">BUY
+                            NOW!</button>
+                    </a>
+                </div>
+
+                <div class="w-screen flex items-center justify-center relative">
+                    <img srcset="./assets/img/crater.png" alt="crater sneakers" class="slideImg z-10 w-11/12 md:w-auto">
+                    <div class="w-full h-full md:w-[750px] md:h-[750px] rounded-full absolute bg-yellow-500">
+                    </div>
+                    <h1
+                        class="hidden lg:flex absolute top-36 right-36 text-6xl text-center font-black text-neutral-200 z-10">
+                        CRATER <br> NEW <br> SEASON</h1>
+                    <h2
+                        class="absolute bottom-12 left-0 bg-neutral-200 xl:bg-transparent xl:bottom-3/4 xl:left-36 text-6xl text-center font-light border border-neutral-500 z-10 py-1 px-2 text-yellow-500 rounded-sm">
+                        $799</h2>
+                    <a href="#product">
+
+                        <button
+                            class="border-none absolute bottom-0 right-0 xl:bottom-1/3 xl:right-36 text-3xl py-2 px-3 font-black cursor-pointer bg-neutral-950 text-neutral-200 xl:border xl:border-neutral-500 z-10 rounded-sm hover:bg-neutral-200 hover:text-neutral-950 duration-300">BUY
+                            NOW!</button>
+                    </a>
+                </div>
+
+                <div class="w-screen flex items-center justify-center relative">
+                    <img srcset="./assets/img/hippie.png" alt="hippie sneakers" class="slideImg z-10 w-11/12 md:w-auto">
+                    <div class="w-full h-full md:w-[750px] md:h-[750px] rounded-full absolute bg-cyan-600">
+                    </div>
+                    <h1
+                        class="hidden lg:flex absolute top-36 right-36 text-6xl text-center font-black text-neutral-200 z-10">
+                        HIPPIE <br> NEW <br> SEASON</h1>
+                    <h2
+                        class="absolute bottom-12 left-0 bg-neutral-200 xl:bg-transparent xl:bottom-3/4 xl:left-36 text-6xl text-center font-light border border-neutral-500 z-10 py-1 px-2 text-cyan-600 rounded-sm">
+                        $699</h2>
+                    <a href="#product">
+
+                        <button
+                            class="border-none absolute bottom-0 right-0 xl:bottom-1/3 xl:right-36 text-3xl py-2 px-3 font-black cursor-pointer bg-neutral-950 text-neutral-200 xl:border xl:border-neutral-500 z-10 rounded-sm hover:bg-neutral-200 hover:text-neutral-950 duration-300">BUY
+                            NOW!</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Fim main-->
+
+    <!--Inicio Section Features-->
+    <section>
+        <div class="grid grid-cols-2 md:grid-cols-4 py-10 px-3 lg:px-14 gap-5">
+            <div class="flex flex-col items-center bg-neutral-50 text-center shadow-2xl py-16 px-3 rounded-sm">
+                <img src="./assets/img/shipping.png" alt="transport icon " class="w-12 h-12">
+                <span class="uppercase text-xl font-semibold m-5 text-neutral-950">Free shipping</span>
+                <span class="text-neutral-500 w-full h-auto">Free Worldwide shipping on all orders.</span>
+            </div>
+            <div class="feature flex flex-col items-center bg-neutral-50 text-center shadow-2xl py-16 px-3 rounded-sm">
+                <img src="./assets/img/return.png" alt="return icon" class="w-12 h-12">
+                <span class="uppercase text-xl font-semibold m-5 text-neutral-950">30 days return</span>
+                <span class="text-neutral-500 w-full h-auto">No question return and easy refund in 14
+                    days.</span>
+            </div>
+            <div class="feature flex flex-col items-center bg-neutral-50 text-center shadow-2xl py-16 px-3 rounded-sm">
+                <img src="./assets/img/gift.png" alt="coupon icon" class="w-12 h-12">
+                <span class="uppercase text-xl font-semibold m-5 text-neutral-950">Gift Cards</span>
+                <span class="text-neutral-500 w-full h-auto">Buy gift and use coupon codes easily.</span>
+            </div>
+            <div class="feature flex flex-col items-center bg-neutral-50 text-center shadow-2xl py-16 px-3 rounded-sm">
+                <img src="./assets/img/contact.png" alt="contact icon" class="w-12 h-12">
+                <span class="uppercase text-xl font-semibold m-5 text-neutral-950">Contact US!</span>
+                <span class="text-neutral-500 w-full h-auto">Keep in touch via email and support
+                    system.</span>
+            </div>
+        </div>
+    </section>
+    <!--Fim Section Features-->
+
+    <!--Inicio Section product-->
+    <section>
+        <div id="product"
+            class="product h-auto bg-neutral-200 flex flex-col lg:flex-row justify-center items-center py-14 px-6 lg:gap-10 relative">
+            <img src="./assets/img/air.png" alt="air sneakers" class="productImg w-full lg:w-1/2">
+            <div class="productDetails flex flex-col gap-5 lg:w-2/5">
+                <h2 class="productTitle text-neutral-950 text-7xl font-black lg:mb-14 mb-10">AIR FORCE</h2>
+                <h3 class="productPrice text-neutral-950 text-2xl font-bold">$199</h3>
+                <p class="productDesc  text-neutral-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam nemo aliquam ab id nobis, sit voluptatem minus ea officiis, autem, laboriosam ipsa ipsum
+                    excepturi odit labore eum. Nisi, facere iure.</p>
+                <div class="colors flex gap-3">
+                    <div class="color w-8 h-8 rounded-md bg-neutral-950 cursor-pointer"></div>
+                    <div class="color w-8 h-8 rounded-md bg-blue-800 cursor-pointer"></div>
+                </div>
+                <div class="sizes flex">
+                    <div class="size py- px-5 mr-3 cursor-pointer text-xl border border-neutral-950">42</div>
+                    <div class="size py- px-5 mr-3 cursor-pointer text-xl border border-neutral-950">43</div>
+                    <div class="size py- px-5 mr-3 cursor-pointer text-xl border border-neutral-950">44</div>
+                </div>
+                <div>
+                    <button
+                        class="productButton float-right py-3 px-5 bg-neutral-950 text-neutral-200 font-semibold cursor-pointer border border-neutral-950 rounded-sm hover:bg-neutral-200 hover:text-neutral-950 duration-300">BUY
+                        NOW!</button>
+                </div>
+            </div>
+
+            <!-- Inicio Modal -->
+            <div class="payment lg:w-6/12 w-11/12 h-auto py-5 px-10 shadow-xl bg-neutral-100 absolute hidden flex-col">
+                <h2 class="payTitle text-2xl text-neutral-400 pb-10">Personal Information</h2>
+                <label class="font-light">Name and Surname</label>
+                <input type="text" placeholder="Your Name"
+                    class="payInput p-3 my-3  border-b border-neutral-950 bg-transparent outline-none">
+                <label class="font-light">Phone Number</label>
+                <input type="text" placeholder="Your Number"
+                    class="payInput p-3 my-3  border-b border-neutral-950 bg-transparent outline-none">
+                <label class="font-light">Address</label>
+                <input type="text" placeholder="Your Address"
+                    class="payInput p-3 my-3  border-b border-neutral-950 bg-transparent outline-none">
+                <h2 class="payTitle text-2xl text-neutral-400 pt-10 pb-10">Card Information</h2>
+                <div class="cardIcons  flex gap-5">
+                    <img src="./assets/img/visa.png" alt="visa icon" class="cardIcons  w-10">
+                    <img src="./assets/img/master.png" alt="master icon" class="cardIcons  w-10">
+                </div>
+
+                <input type="password" placeholder="Card Number"
+                    class="payInput p-3 my-3  border-b border-neutral-950 bg-transparent outline-none">
+
+                <div class="cardInfo flex lg:justify-between lg:flex-row flex-col">
+                    <input type="text" placeholder="mm"
+                        class="payInput p-3 my-3  border-b border-neutral-950 bg-transparent outline-none">
+                    <input type="text" placeholder="yyyy"
+                        class="payInput p-3 my-3  border-b border-neutral-950 bg-transparent outline-none">
+                    <input type="text" placeholder="cvv"
+                        class="payInput p-3 my-3  border-b border-neutral-950 bg-transparent outline-none">
+                </div>
+                <button
+                    class="payButton absolute h-10 -bottom-10 left-0 w-full shadow-2xl bg-green-700 text-neutral-200 hover:bg-green-800 duration-300">Checkout!</button>
+                <span
+                    class="close w-5 h-5 absolute bg-neutral-400 text-neutral-200 top-3.5 right-8 flex justify-center items-center cursor-pointer mt-3 p-0.5">X</span>
+            </div>
+            <!--Fim Modal-->
+        </div>
+    </section>
+    <!--Fim Section product-->
+
+
+    <!-- Inicio Section gallery -->
+    <section>
+        <div class="p-10 hidden sm:flex ">
+            <div class="flex-1 p-5">
+                <h2 class="text-3xl font-semibold pb-5">Be Yourself!</h2>
+                <img src="./assets/img/imgGallery1.jpeg" alt="" class="galleryImg w-full hover:scale-105 duration-300" data-aos="zoom-in-right" data-aos-duration="1000">
+            </div>
+            <div class="flex-1 p-5">
+                <img src="./assets/img/imgGallery2.jpeg" alt="" class="galleryImg w-full hover:scale-105 duration-300" data-aos="zoom-out-down" data-aos-duration="2000">
+                <h2 class="text-3xl font-semibold pt-5">This is the First Day of Your New Life!</h2>
+            </div>
+            <div class="flex-1 p-5">
+                <h2 class="text-3xl font-semibold pb-5">Just Do it!</h2>
+                <img src="./assets/img/imgGallery3.jpeg" alt="" class="galleryImg w-full hover:scale-105 duration-300"  data-aos="zoom-in-left" data-aos-duration="3000">
+            </div>
+        </div>
+    </section>
+    <!-- Fim Section gallery -->
+
+    <!-- Inicio Section newSeason -->
+    <section>
+        <div class="flex flex-col sm:flex-row">
+            <div class="flex-1 bg-neutral-950 text-neutral-200 flex flex-col items-center text-center justify-center">
+                <img src="./assets/img/img4.jpeg" alt="" class="w-full h-full">
+            </div>
+            <div
+                class="flex-1 bg-neutral-950 text-neutral-200 flex flex-col items-center text-center justify-center gap-5 py-10 px-2">
+                <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+                <h2 class="nsTitle text-4xl">New Season</h2>
+                <h2 class="nsTitle text-4xl">New Collection</h2>
+                <a href="#nav"></a>
+                <button
+                    class="productButton float-right py-3 px-5 bg-neutral-200 text-neutral-950 font-semibold cursor-pointer border border-neutral-200 rounded-sm hover:bg-transparent hover:text-neutral-200 duration-300">CHOOSE
+                    YOUR STYLE</button>
+            </div>
+            <div class="flex-1 bg-neutral-950 text-neutral-200 flex flex-col items-center text-center justify-center">
+                <img src="./assets/img/img5.jpeg" alt="" class="w-full h-full">
+            </div>
+        </div>
+    </section>
+    <!-- Fim Section newSeason -->
+
+    <footer>
+        <div class="footerLeft flex flex-col md:flex-row justify-between p-12 lg:px-16">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle text-xl font-medium mb-5">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Company</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Contact</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Careers</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Affiliates</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle text-xl font-medium mb-5">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Support</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Refund</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">FAQ</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Feedback</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle text-xl font-medium mb-5">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Air Force</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Air Jordan</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Blazer</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Crater</li>
+                    <li class="fListItem mb-3 text-neutral-500 cursor-pointer">Hippie</li>
+                </ul>
+            </div>
+            <div class="footerRightMenu flex flex-col">
+                <h1 class="fMenuTitle text-xl font-medium mb-5 pt-5">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput p-2 border border-neutral-950">
+                    <button class="fButton p-2 bg-neutral-950 text-neutral-200">Join!</button>
+                </div>
+
+                <h1 class="fMenuTitle text-xl font-medium my-5">Follow Us</h1>
+                <div class="fIcons flex my-5">
+                    <img src="./assets/img/facebook.png" alt="facebook icon" class="fIcon w-5 h-5 mr-2">
+                    <img src="./assets/img/instagram.png" alt="instagram icon" class="fIcon w-5 h-5 mr-2">
+                    <img src="./assets/img/twitter.png" alt="twitter icon" class="fIcon w-5 h-5 mr-2">
+                    <img src="./assets/img/whatsapp.png" alt="whatsapp icon" class="fIcon w-5 h-5 mr-2">
+                </div>
+                <div class="footerRightMenu">
+                    <span class=" font-light text-sm">©Américo Rodrigues. All rights reserved. 2024.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Fim footer -->
+
+    <script src="./src/js/main.js" defer></script>
+</body>
+
+</html>
