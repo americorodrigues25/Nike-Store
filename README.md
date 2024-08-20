@@ -19,7 +19,7 @@
 </div>
 
 # link do deploy:
-
+https://nike-store-orcin.vercel.app/
 
 
 ## Contatos: 📲
