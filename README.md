@@ -14,8 +14,8 @@
 
 ### Demonstração do projeto:
 <div style="display: flex" >
-<img align="center" alt="icon-HTML" height="" width="70%" src="https://github.com/user-attachments/assets/4613582b-2ffd-4ab8-9c86-d29a30ac1272" />
-<img align="center" alt="icon-HTML" height="" width="250" src="https://github.com/user-attachments/assets/272db3e4-c4f6-4553-9034-d09e4267b360" />
+<img align="center" alt="icon-HTML" height="" width="50%" src="https://github.com/user-attachments/assets/4613582b-2ffd-4ab8-9c86-d29a30ac1272" />
+<img align="center" alt="icon-HTML" height="" width="150" src="https://github.com/user-attachments/assets/272db3e4-c4f6-4553-9034-d09e4267b360" />
 </div>
 
 # link do deploy:
